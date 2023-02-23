@@ -1,10 +1,10 @@
 colores = ["Negro", "Blue"]
 
-numbers_list = list((1,2,3,4))
+# numbers_list = list((1,2,3,4))
 # print(type(numbers_list))
 # Mostrar rango
-#rango = list(range(1,10+1))
-#print(rango)
+# rango = list(range(1,10+1))
+# print(rango)
 
 # Mostrar índice
 print(colores[0])
