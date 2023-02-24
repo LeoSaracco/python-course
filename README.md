@@ -1,3 +1,3 @@
 # python-course
-- Resumen de nomenclatura propia del lenguaje
+- Resumen de sintaxis propia del lenguaje
 - Ejercicios
