@@ -5,8 +5,14 @@ import time
 def job():
     print("Reading job")
 
-# To every second
-schedule.every(1).seconds.do(job)
+def jobTimeSet():
+    print("Reading job at " + time.asctime(time.localtime()))
+
+# To ten second
+schedule.every(10).seconds.do(job)
+
+# To specific time
+schedule.every().day.at("16:40").do(jobTimeSet)
 
 while True:
     schedule.run_pending()
